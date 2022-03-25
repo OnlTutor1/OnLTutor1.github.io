@@ -1,0 +1,413 @@
+
+.profile-info {
+    margin-bottom: 25px;
+}
+
+.profile-img {
+    width: 80%;
+    max-width: 300px;
+}
+
+.profile {
+    text-align: center;
+
+}
+
+.profile-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.profile-details {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+.profile-btn {
+    background-color:beige;
+    border: none;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.profile-btn:hover {
+    filter: brightness(130%)
+}
+
+.profile-img-section {
+    position:relative;
+}
+
+
+@media (min-width:950px) {
+    .profile-info {
+        margin-bottom: 0px;
+    }
+    
+    .profile-img {
+        width: 100%;
+        max-width: 350px;
+    }
+    
+    .profile {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 50px auto;
+        align-items: center;
+    }
+    
+    .profile-title {
+        font-size: 60px;
+        color:black;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .profile-details {
+        font-size: 25px;
+        margin: 20px 0;
+    }
+    
+    .profile-btn {
+        background-color:beige;
+        font-size: 28px;
+        cursor: pointer;
+    }
+    
+    .profile-btn:hover {
+        filter: brightness(130%)
+    }
+    
+    .profile-img-section {
+        position:relative;
+    }
+    .profile-img-line {
+        background-color:white;
+        height: 15px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    
+    }
+}
+
+/* AHORA LA PARTE PRINCIPAL */
+
+.container1 {
+    text-align: center;
+}
+
+.container1-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container1-txt {
+    margin-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container1-img {
+    width: 80%;
+    max-width: 250px;
+}
+
+@media (min-width:950px) {
+    .container1 {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 20px auto;
+        align-items: center;
+    
+    }
+    
+    .container1-title {
+        font-size: 60px;
+        text-align: left;
+        font-weight: bold;
+        margin: 40px;
+        color:black;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .container1-txt {
+       margin-bottom: 0;
+       font-family: 'Courier New', Courier, monospace;
+       
+    }
+    
+    .container1-img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+/* AHORA LA PARTE PRINCIPAL 2*/
+
+.container2 {
+    text-align: center;
+}
+
+.container2-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container2-txt {
+    margin-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container2-img {
+    width: 80%;
+    max-width: 300px;
+
+}
+
+@media (min-width:950px) {
+    .container2 {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 20px auto;
+        align-items: center;
+
+    
+    }
+    
+    .container2-title {
+        font-size: 60px;
+        font-weight: bold;
+        margin: 40px;
+        color:black;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .container2-txt {
+       margin-bottom: 0;
+       font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .container2-img {
+        width: 100%;
+        max-width: 650px;
+    }
+
+
+}
+
+/* AHORA LA PARTE PRINCIPAL 3*/
+.container3 {
+    text-align: center;
+}
+
+.container3-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container3-txt {
+    margin-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container3-img {
+    width: 80%;
+    max-width: 300px;
+}
+
+@media (min-width:950px) {
+    .container3 {
+        text-align: left;
+        max-width: 980px;
+        margin: 20px auto;
+        align-items: center;
+    
+    }
+    
+    .container3-title {
+        font-size: 60px;
+        font-weight: bold;
+        margin: 40px;
+        color:black;
+        font-family:'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    
+    .container3-txt {
+       margin-bottom: 0;
+       text-align: center;
+       font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .container3-img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+
+/* AHORA EL SLIDER*/
+
+
+.slider-h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    color:black;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+@media (min-width:950px) {
+
+    .slider-h3{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    }
+}
+
+/* AHORA EL container4*/
+
+.container4 {
+    text-align: center;
+}
+
+.container4-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container4-txt {
+    margin-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container4-img {
+    width: 80%;
+    max-width: 350px;
+
+}
+
+@media (min-width:950px) {
+    .container4 {
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 20px auto;
+
+        align-items: center;
+
+    
+    }
+    
+    .container4-title {
+        text-align:center ;
+        font-size: 60px;
+        font-weight: bold;
+        margin: 40px;
+        color: black;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .container4-txt {
+       margin-bottom: 0;
+       font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .container4-img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+/* AHORA EL container5*/
+
+.container5 {
+    text-align: center;
+    margin: 50px;
+    }
+
+.container5-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container5-txt {
+    margin-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container5-img {
+    width: 80%;
+    max-width: 350px;
+
+}
+
+@media (min-width:950px) {
+
+    .container5 {
+        text-align: right;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 20px auto;
+
+        align-items: center;
+
+    
+    }
+    
+    .container5-title {
+        text-align:right;
+        font-size: 60px;
+        font-weight: bold;
+        margin: 50px;
+        color: black;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .container5-txt {
+       margin-bottom: 0;
+       font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .container5-img {
+        width: 100%;
+        max-width: 800px;
+    }
+
+}
